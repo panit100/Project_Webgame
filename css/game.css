@@ -1,0 +1,44 @@
+.button{
+    width: 100%;
+    color: rgb(255, 255, 255);
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+
+    font-size: .875rem;
+
+    border-radius: 9999px;
+    background-color: blue;
+}
+
+.point{
+    font-size: 200%;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.text{
+    color: rgba(74, 85, 104, 0.75);
+    margin-bottom: 1rem;
+    font-size: .875rem;
+}
+
+.border{
+    width:  100%;
+    text-align: center;
+    padding: 1.5rem;
+    max-width: 28rem;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.item{
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}

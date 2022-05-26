@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="css/score.css">
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js" integrity="sha512-kVlGhj2qFy+KBCFuvjBJTGUMxbdqJKs4yK2jh0e0VPhWUPiPC87bzm4THmaaIee3Oj7j6sDpTTgm2EPPiESqBg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/score.js"></script>
+</head>
+<body>
+    <div id="page">
+        <!-- <div class="item" id="modalEl"> -->
+            <!-- <div class="bg-white max-w-md w-full p-6 text-center"> -->
+            <div class="border">
+                <div id="topBox">
+                <h1 class="header" id="bigScoreEl">TURRET.IO</h1>
+                <p id="user">username</p>
+                </div>
+                <div>
+                    <a href="/sendToStart">
+                        <button class="button" id="startGameBtn">Start Game</button>
+                    </a>
+                </div>
+                <div><br></div>
+                <div>
+                    <a href="/sendToScore">
+                        <button class="button" id="scoreBtn">Score</button>
+                    </a>
+                </div>
+                <div><br></div>
+                <div>
+                    <a href="/logout">
+                        <button class="button" id="logoutBtn">Logout</button>
+                    </a>
+                </div>
+            </div>
+            <div id="flexSpace" >
+                <h1 class="header" id="bigScoreEl">LeaderBoard</h1> 
+                <div id="ScoreUser">
+                    <div id="No.x">
+                        <div id="rank">rank</div>
+                        <div id="namex">Name</div>
+                        <div id="Scorex">Score</div>
+                        <div id="fill"></div>
+                        <div id="fill"></div>
+                    </div>
+                    <div id="No.1">
+                        <div id="rank">1</div>
+                        <div id="name1"></div>
+                        <div id="Score1"></div>
+                        <button class="likeButton" id="like1"> Like 0 </button> 
+                        <a href="/sendToComment">
+                            <button class="commentButton" id="Comment1"> Comment  </button>
+                        </a>
+                    </div>
+                    <div id="No.2">
+                        <div id="rank">2</div>
+                        <div id="name2"></div>
+                        <div id="Score2"></div>
+                        <button class="likeButton" id="like2"> Like 0 </button> 
+                        <a href="/sendToComment">
+                            <button class="commentButton" id="Comment2"> Comment  </button>
+                        </a>
+                    </div>
+                    <div id="No.3">
+                        <div id="rank">3</div>
+                        <div id="name3"></div>
+                        <div id="Score3"></div>
+                        <button class="likeButton" id="like3"> Like 0 </button> 
+                        <a href="/sendToComment">
+                            <button class="commentButton" id="Comment3"> Comment  </button>
+                        </a>
+                    </div>
+                    <div id="No.4">
+                        <div id="rank">4</div>
+                        <div id="name4"></div>
+                        <div id="Score4"></div>
+                        <button class="likeButton" id="like4"> Like 0 </button> 
+                        <a href="/sendToComment">
+                            <button class="commentButton" id="Comment4"> Comment  </button>
+                        </a>
+                    </div>
+                    <div id="No.5">
+                        <div id="rank">5</div>
+                        <div id="name5"></div>
+                        <div id="Score5"></div>
+                        <button class="likeButton" id="like5"> Like 0 </button> 
+                        <a href="/sendToComment">
+                            <button class="commentButton" id="Comment5"> Comment  </button>
+                        </a>
+                    </div>
+                </div>
+                <div><br></div>
+            </div>
+    </div>    
+</body>
+
+
+</html>

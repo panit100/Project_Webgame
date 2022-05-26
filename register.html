@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Register</title>
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+		<script type="text/javascript" src="js/register.js"></script>
+		<script defer src="node_modules/swup/dist/swup.min.js"></script>
+	</head>
+	<body>
+		<div id="transition"></div>
+		<div id="page">
+			<div id="topic">REGISTRATION</div>
+			<div id="conScale">
+			<div id=container>
+				<form class="form" action="/regisDB" method="post" accept-charset="utf-8">
+					
+						<h1> Register </h1>
+						Username:<input type="text" name="username" value="" placeholder="" required><br>
+						<!-- Email:<input type="text" name="email" value="" placeholder="" required><br> -->
+						Password: <input type="password" name="password" value="" placeholder=""><br>
+						Confirm Password: <input type="password" name="password" value="" placeholder=""><br>
+						<span id="errordisplay"></span><br>
+						<button id="registerButton">Register</button>
+						<!-- <input type="submit" name="submit" value="Register"> -->
+					
+				</form>
+				<br>
+				<!--<form class="form" action="/register" method="post" accept-charset="utf-8">
+					<input type="submit" value="Register">
+	
+				</form>
+				<h1 class="animate__animated animate__bounce">An animated element</h1>-->
+				
+			</div>
+		</div>
+		</div>
+	</main>
+	
+	</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Login</title>
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+		<script defer src="node_modules/swup/dist/swup.min.js"></script>
+		<script type="text/javascript" src="js/login.js"></script>
+		<link
+		rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+	  />
+	</head>
+	<body>
+		<div id="transition"></div>
+		<div id="page">
+			<div id="topic">WELCOME TO<br>TERRET.IO!</div>
+			<div id="conScale">
+			<div id=container>
+				<form id="myform" class="form" action="/checkLogin" method="post" accept-charset="utf-8">
+
+						<h1> Login </h1>
+						<div>Welcome back! Please login to your account</div>
+						<br>
+						Username:<input type="text" name="username" value="" placeholder="" required id="inputBox"><br>
+						Password: <input type="password" name="password" value="" placeholder="" required><br>
+						<span id="errordisplay"></span><br>
+						<input type="submit" value="Login" id="loginButton">
+
+				</form>
+				<br>
+				<p><div id="inline">New User ?&nbsp</div><a href="/register.html">Register</a></p>
+				<!--<form class="form" action="/register" method="post" accept-charset="utf-8">
+					<input type="submit" value="Register">
+	
+				</form>
+				<h1 class="animate__animated animate__bounce">An animated element</h1>-->
+				
+			</div>
+		</div>
+		</div>
+	
+	</body>
+</html>

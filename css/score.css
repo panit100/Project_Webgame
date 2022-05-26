@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    font-family: 'glacial';
+	background-image: url("/vector1.jpg");
+    box-sizing: border-box;
+}
+
+.header{
+    font-size: 200%;
+    font-weight: bold;
+    line-height: 1;
+
+
+}
+#topBox{
+    margin-top: 10vh;
+    margin-bottom: 30vh;
+    color: white;
+}
+#inline{
+    display: inline-block;
+}
+#user{
+    color: white;
+    margin-bottom: 1rem;
+    font-size: .875rem;
+}
+
+.button{
+    width: 100%;
+    color: rgb(255, 255, 255);
+
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+
+    font-size: .875rem;
+
+    border-radius: 9999px;
+    border: 2px solid white;
+
+}
+#startGameBtn{
+    color: black;
+    background-color: white;
+    box-shadow: 4px 4px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+.border{
+    margin: 0%;
+    height: 100vh;
+    width:  100%;
+    text-align: center;
+    padding: 6rem;
+
+}
+
+.item{
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+#flexSpace{
+    display: block;
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding-block: 10vh;
+    overflow: hidden;
+    padding-inline: 10vw;
+}
+
+#box{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+#page{
+	display: grid;
+    align-items: start;
+	grid-template-columns: 1fr 2fr;
+    height: 20vh;
+}
+@font-face {
+	font-family: 'glacial';
+	src: url("/GlacialIndifference/GlacialIndifference-Regular.otf");
+}
+@font-face {
+	font-family: 'glacialBold';
+	src: url("/GlacialIndifference/GlacialIndifference-Bold.otf");
+}
+.form{
+	
+	font-size:18px;
+}
+
+
+.likeButton{
+    color: white;
+    min-width: 80px;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 25px;
+}
+
+.commentButton{
+    color: white;
+    min-width: 80px;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 25px;
+}
+div[id*="No"]{
+    border-bottom: solid black 1px;
+    display: grid;
+    align-content: flex-start;
+    grid-template-columns: 1fr 3fr 3fr 2fr 3fr;
+    column-gap: 2vw;
+    padding: 10px;
+    margin-bottom: 2vw;
+    position: relative;
+}
+#ScoreUser{
+    margin-top: 60px;
+    position: relative;
+    animation: fadein 0.8s ease    forwards;
+
+}
+@keyframes fadein {
+	from {bottom: -200px; opacity: 0%;}
+	to {bottom: 0px; opacity: 100%;}
+  }
+  @keyframes fadeout {
+	from {bottom: 0px; opacity: 100%;} 
+	to {bottom: -200px; opacity: 0%;}
+
+  }
+div[id*=name]{
+    text-align: left;
+    width: 100%;
+    position: relative;
+}
+#rank{
+    width: 9.5px;
+}
+#fill{
+    width: 80px;
+}
+@media only screen and (max-width: 600px){
+    #page{
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+    .border{
+        display: none;
+    }
+    #relate{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+}
